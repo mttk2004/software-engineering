@@ -28,6 +28,22 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 - [Phần 10: Rational Unified Process](software_processes.md#phần-10-rational-unified-process-rup)
 - [Phần 11: Các vấn đề và thách thức khác](software_processes.md#phần-11-các-vấn-đề-và-thách-thức-khác)
 
+### [Đề cương ôn tập lý thuyết](de-cuong/ly-thuyet.md)
+- [Mô hình quy trình phần mềm cơ bản](de-cuong/ly-thuyet.md#1-mô-hình-quy-trình-phần-mềm-cơ-bản)
+- [Khả năng đáp ứng thay đổi yêu cầu](de-cuong/ly-thuyet.md#2-khả-năng-đáp-ứng-thay-đổi-yêu-cầu)
+- [So sánh tiến độ phát triển](de-cuong/ly-thuyet.md#3-so-sánh-tiến-độ-phát-triển)
+- [Ưu điểm trong môi trường thay đổi](de-cuong/ly-thuyet.md#4-ưu-điểm-trong-môi-trường-thay-đổi)
+- [Câu hỏi tình huống và phân tích](de-cuong/ly-thuyet.md#5-câu-hỏi-tình-huống-và-phân-tích)
+
+### [Hướng dẫn vẽ diagrams](diagrams/)
+Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loại sơ đồ (diagrams) khác nhau trong công nghệ phần mềm, bao gồm:
+- UML diagrams
+- Entity-Relationship diagrams
+- Sequence diagrams
+- Activity diagrams
+- Class diagrams
+- Và các loại sơ đồ khác
+
 ## Danh sách các câu hỏi nổi bật
 
 ### Chương 1: Giới thiệu Công nghệ phần mềm
@@ -44,6 +60,11 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 4. [Prototype phần mềm và các loại](software_processes.md#câu-26-định-nghĩa-prototype-phần-mềm-và-mục-đích-sử-dụng)
 5. [Rational Unified Process và các pha chính](software_processes.md#câu-40-định-nghĩa-rational-unified-process-và-đặc-điểm-chính)
 6. [So sánh các mô hình quy trình phần mềm](software_processes.md#câu-49-tổng-hợp-và-so-sánh-các-mô-hình-quy-trình-phần-mềm)
+
+### Đề cương ôn tập lý thuyết
+1. [Mô hình V-Model và ví dụ minh họa](de-cuong/ly-thuyet.md#câu-1-mô-hình-v-model-là-gì-cho-ví-dụ-minh-họa)
+2. [So sánh khả năng thích ứng của các mô hình trong bối cảnh COVID-19](de-cuong/ly-thuyet.md#câu-8-so-sánh-khả-năng-thích-ứng-của-ba-mô-hình-trong-bối-cảnh-covid-19)
+3. [Phân tích ROI của các mô hình phát triển phần mềm](de-cuong/ly-thuyet.md#câu-24-roi-analysis---mô-hình-nào-có-roi-tốt-nhất)
 
 ## Đóng góp
 
