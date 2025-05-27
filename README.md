@@ -35,12 +35,11 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 - [Ưu điểm trong môi trường thay đổi](de-cuong/ly-thuyet.md#4-ưu-điểm-trong-môi-trường-thay-đổi)
 - [Câu hỏi tình huống và phân tích](de-cuong/ly-thuyet.md#5-câu-hỏi-tình-huống-và-phân-tích)
 
-### [Đề thi dự đoán và đáp án](de-cuong/)
-- [Đề thi dự đoán](de-cuong/exam_paper.md) - Đề thi mẫu dựa trên đề cương môn học
-- [Đáp án chi tiết](de-cuong/answer_key.md) - Bài giải mẫu cho đề thi dự đoán
+### Đề thi dự đoán và đáp án
+- [Đề thi và đáp án - Biến thể 1](de-cuong/exam_solution_1.md) - Đề thi và bài giải về hệ thống đặt vé máy bay
+- [Đề thi và đáp án - Biến thể 2](de-cuong/exam_solution_2.md) - Đề thi và bài giải về hệ thống đặt vé xem phim
 
-### Hướng dẫn vẽ diagrams
-Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loại sơ đồ (diagrams) khác nhau trong công nghệ phần mềm:
+### Hướng dẫn vẽ các loại diagram
 - [Use Case Diagram](diagrams/use_case.md) - Sơ đồ trường hợp sử dụng
 - [Class Diagram](diagrams/class.md) - Sơ đồ lớp
 - [Activity Diagram](diagrams/activity.md) - Sơ đồ hoạt động
@@ -72,10 +71,10 @@ Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loạ
 3. [Phân tích ROI của các mô hình phát triển phần mềm](de-cuong/ly-thuyet.md#câu-24-roi-analysis---mô-hình-nào-có-roi-tốt-nhất)
 
 ### Đề thi dự đoán
-1. [So sánh Waterfall và Incremental Development](de-cuong/exam_paper.md#câu-1-30-điểm)
-2. [Mô hình quy trình cho hệ thống quản lý thư viện](de-cuong/exam_paper.md#câu-2-30-điểm)
-3. [Hệ thống đặt vé máy bay trực tuyến](de-cuong/exam_paper.md#câu-3-20-điểm)
-4. [Thiết kế Class Diagram](de-cuong/exam_paper.md#câu-4-20-điểm)
+1. [So sánh Waterfall và Incremental Development](de-cuong/exam_solution_1.md#câu-1-30-điểm)
+2. [Mô hình quy trình cho hệ thống quản lý thư viện](de-cuong/exam_solution_1.md#câu-2-30-điểm)
+3. [Thiết kế Class Diagram cho hệ thống đặt vé](de-cuong/exam_solution_1.md#câu-4-20-điểm)
+4. [Dự án phù hợp với các mô hình phát triển phần mềm](de-cuong/exam_solution_2.md#câu-1-30-điểm)
 
 ## Đóng góp
 

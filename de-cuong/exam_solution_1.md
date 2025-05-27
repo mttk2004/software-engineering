@@ -1,10 +1,71 @@
-# ĐÁP ÁN CHI TIẾT - ĐỀ THI CÔNG NGHỆ PHẦN MỀM
+# ĐỀ THI VÀ ĐÁP ÁN - BIẾN THỂ 1
 
-## Câu 1. (3,0 điểm)
+## ĐỀ THI
 
-### a. So sánh ưu nhược điểm của mô hình Waterfall và Incremental Development (1,5 đ)
+### TRƯỜNG ĐẠI HỌC SÀI GÒN
+#### ĐỀ THI KẾT THÚC HỌC PHẦN
+**Học phần:** CÔNG NGHỆ PHẦN MẠM
+**Mã học phần:** 841047
+*Thời gian làm bài: 90 phút, không kể thời gian phát đề*
 
-#### Mô hình Waterfall:
+**Học kì:** I............................... **Năm học:** 2024-2025.............................
+**Trình độ đào tạo:** Đại học ........................... **Hình thức đào tạo:** Chính quy **Hệ:** Đại trà
+**Họ tên sinh viên:** ...................................... **Mã số sinh viên:** ......................................
+
+*Sinh viên KHÔNG sử dụng tài liệu.*
+
+---
+
+### Câu 1. (3,0 điểm)
+**a.** So sánh ưu nhược điểm của mô hình Waterfall và mô hình Incremental Development. Khi nào nên sử dụng từng mô hình? (1,5 đ)
+
+**b.** Trong quá trình phát triển phần mềm, tại sao việc "Coping with Change" lại quan trọng? Nêu 2 kỹ thuật chính để đối phó với sự thay đổi yêu cầu. (1,5 đ)
+
+---
+
+### Câu 2. (3,0 điểm)
+Một công ty muốn phát triển hệ thống quản lý thư viện trực tuyến với các yêu cầu sau:
+- Hệ thống cần phải hoạt động ổn định với hiệu suất cao
+- Yêu cầu rõ ràng và ít thay đổi trong quá trình phát triển
+- Dự án có quy mô lớn với nhiều nhóm phát triển ở các địa điểm khác nhau
+- Cần tài liệu chi tiết để quản lý dự án
+
+**a.** Đề xuất mô hình quy trình phần mềm phù hợp và giải thích lý do lựa chọn. (1,5 đ)
+
+**b.** Mô tả 4 hoạt động cơ bản (Process Activities) sẽ được thực hiện trong dự án này. (1,5 đ)
+
+---
+
+### Câu 3. (2,0 điểm)
+Xét hệ thống đặt vé máy bay trực tuyến với các chức năng chính: tìm kiếm chuyến bay, đặt vé, thanh toán, hủy vé, và gửi thông báo.
+
+**a.** Liệt kê các actor chính tương tác với hệ thống và mô tả ngắn gọn vai trò của từng actor. (1,0 đ)
+
+**b.** Viết 3 user story cho chức năng "Đặt vé máy bay". (1,0 đ)
+
+---
+
+### Câu 4. (2,0 điểm)
+Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp chính của hệ thống:
+
+**a.** Vẽ Class Diagram bao gồm các lớp: Customer, Flight, Booking, Payment với các thuộc tính cơ bản và mối quan hệ giữa chúng. (1,0 đ)
+
+**b.** Mô tả ý nghĩa của các mối quan hệ trong Class Diagram vừa vẽ. (1,0 đ)
+
+---
+
+*Cán bộ coi thi không giải thích gì thêm.*
+*Trang 1/1*
+
+---
+
+## ĐÁP ÁN
+
+### Câu 1. (3,0 điểm)
+
+#### a. So sánh ưu nhược điểm của mô hình Waterfall và Incremental Development (1,5 đ)
+
+##### Mô hình Waterfall:
 **Ưu điểm:**
 - Cấu trúc rõ ràng, dễ quản lý và theo dõi tiến độ
 - Tài liệu hóa đầy đủ cho từng giai đoạn
@@ -17,7 +78,7 @@
 - Rủi ro cao nếu có lỗi ở giai đoạn đầu
 - Thời gian phát triển dài
 
-#### Mô hình Incremental Development:
+##### Mô hình Incremental Development:
 **Ưu điểm:**
 - Linh hoạt với thay đổi yêu cầu
 - Khách hàng có thể đánh giá sớm
@@ -30,20 +91,20 @@
 - Tài liệu không đầy đủ
 - Chi phí refactoring cao
 
-#### Khi nào sử dụng:
+##### Khi nào sử dụng:
 - **Waterfall:** Yêu cầu ổn định, dự án lớn, nhiều bên tham gia
 - **Incremental:** Yêu cầu thay đổi thường xuyên, cần phản hồi sớm từ khách hàng
 
-### b. Tầm quan trọng của "Coping with Change" và 2 kỹ thuật chính (1,5 đ)
+#### b. Tầm quan trọng của "Coping with Change" và 2 kỹ thuật chính (1,5 đ)
 
-#### Tầm quan trọng:
+##### Tầm quan trọng:
 - Thay đổi là không thể tránh khỏi trong mọi dự án phần mềm lớn
 - Môi trường kinh doanh thay đổi liên tục
 - Công nghệ mới xuất hiện
 - Nền tảng phát triển thay đổi
 - Thay đổi dẫn đến việc làm lại (rework) và tăng chi phí
 
-#### 2 kỹ thuật chính:
+##### 2 kỹ thuật chính:
 1. **Software Prototyping:**
    - Tạo phiên bản ban đầu để thử nghiệm ý tưởng
    - Giúp xác định yêu cầu chính xác hơn
@@ -58,9 +119,9 @@
 
 ---
 
-## Câu 2. (3,0 điểm)
+### Câu 2. (3,0 điểm)
 
-### a. Đề xuất mô hình quy trình phù hợp (1,5 đ)
+#### a. Đề xuất mô hình quy trình phù hợp (1,5 đ)
 
 **Mô hình đề xuất: Waterfall Model**
 
@@ -71,7 +132,7 @@
 - **Hiệu suất cao:** Thiết kế kỹ lưỡng từ đầu đảm bảo hiệu suất hệ thống
 - **Quản lý dễ dàng:** Cấu trúc rõ ràng giúp quản lý tiến độ và nguồn lực
 
-### b. 4 hoạt động cơ bản (Process Activities) (1,5 đ)
+#### b. 4 hoạt động cơ bản (Process Activities) (1,5 đ)
 
 1. **Software Specification (Đặc tả phần mềm):**
    - Xác định yêu cầu chức năng: quản lý sách, độc giả, mượn/trả sách
@@ -97,9 +158,9 @@
 
 ---
 
-## Câu 3. (2,0 điểm)
+### Câu 3. (2,0 điểm)
 
-### a. Các actor chính và vai trò (1,0 đ)
+#### a. Các actor chính và vai trò (1,0 đ)
 
 1. **Customer (Khách hàng):**
    - Tìm kiếm chuyến bay
@@ -124,7 +185,7 @@
    - Xác thực thông tin thẻ
    - Gửi kết quả thanh toán
 
-### b. 3 User Story cho chức năng "Đặt vé máy bay" (1,0 đ)
+#### b. 3 User Story cho chức năng "Đặt vé máy bay" (1,0 đ)
 
 1. **User Story 1:**
    - **Như một** khách hàng
@@ -143,9 +204,9 @@
 
 ---
 
-## Câu 4. (2,0 điểm)
+### Câu 4. (2,0 điểm)
 
-### a. Class Diagram (1,0 đ)
+#### a. Class Diagram (1,0 đ)
 
 ```
 ┌─────────────────┐         ┌─────────────────┐
@@ -185,7 +246,7 @@
 └─────────────────┘
 ```
 
-### b. Ý nghĩa các mối quan hệ (1,0 đ)
+#### b. Ý nghĩa các mối quan hệ (1,0 đ)
 
 1. **Customer - Booking (1:*):**
    - Một khách hàng có thể có nhiều booking
@@ -206,3 +267,4 @@
 - **Multiplicity (1, *, 1:1, 1:*)** thể hiện số lượng đối tượng tham gia vào quan hệ
 - **Composition** (◆): đối tượng con không thể tồn tại độc lập khi đối tượng cha bị xóa
 - **Association** (──): mối quan hệ lỏng lẻo giữa các đối tượng
+</rewritten_file>
