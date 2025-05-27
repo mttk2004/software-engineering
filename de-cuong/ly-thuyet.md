@@ -476,217 +476,217 @@ E-commerce project cần thêm cryptocurrency payment:
 **Team Productivity Factors:**
 
 **Agile Teams:**
-- **Velocity:** Tăng dần qua các sprints (learning curve)
-- **Motivation:** Cao (working software, team autonomy)
-- **Communication:** Excellent (daily standups, co-location)
-- **Technical Debt:** Controlled (regular refactoring)
+- **Tốc độ phát triển:** Tăng dần qua các sprints (đường cong học tập)
+- **Động lực:** Cao (phần mềm hoạt động tốt, tự chủ trong nhóm)
+- **Giao tiếp:** Xuất sắc (họp hàng ngày, làm việc cùng địa điểm)
+- **Nợ kỹ thuật:** Được kiểm soát (refactoring thường xuyên)
 
 **Waterfall Teams:**
-- **Early Phase:** Slow (analysis paralysis)
-- **Coding Phase:** High productivity burst
-- **Late Phase:** Giảm (integration hell, bug fixing)
-- **Overall:** Uneven distribution
+- **Giai đoạn đầu:** Chậm (phân tích quá mức)
+- **Giai đoạn lập trình:** Bùng nổ năng suất cao
+- **Giai đoạn cuối:** Giảm (khó khăn tích hợp, sửa lỗi)
+- **Tổng thể:** Phân bố không đều
 
 **Spiral Teams:**
-- **Risk Analysis Phase:** Chậm nhưng thorough
-- **Development Phase:** Steady progress
-- **Review Phase:** Administrative overhead
-- **Overall:** Consistent nhưng moderate
+- **Giai đoạn phân tích rủi ro:** Chậm nhưng kỹ lưỡng
+- **Giai đoạn phát triển:** Tiến độ ổn định
+- **Giai đoạn đánh giá:** Chi phí quản lý cao
+- **Tổng thể:** Nhất quán nhưng ở mức trung bình
 
-**Productivity Metrics Example (Lines of Code/Developer/Day):**
+**Chỉ số năng suất (Dòng mã/Người phát triển/Ngày):**
 
-| Phase | Waterfall | Agile | Spiral |
+| Giai đoạn | Waterfall | Agile | Spiral |
 |-------|-----------|--------|--------|
-| Month 1-3 | 10 | 25 | 15 |
-| Month 4-6 | 50 | 35 | 30 |
-| Month 7-9 | 30 | 40 | 35 |
-| Month 10-12 | 15 | 42 | 38 |
-| **Average** | **26** | **36** | **30** |
+| Tháng 1-3 | 10 | 25 | 15 |
+| Tháng 4-6 | 50 | 35 | 30 |
+| Tháng 7-9 | 30 | 40 | 35 |
+| Tháng 10-12 | 15 | 42 | 38 |
+| **Trung bình** | **26** | **36** | **30** |
 
 ### Câu 22: Quản lý chất lượng trong các mô hình khác nhau
 **Trả lời:**
 
-**Quality Assurance Approaches:**
+**Các phương pháp đảm bảo chất lượng:**
 
-**V-Model Quality Management:**
-- **Prevention-focused:** Design quality gates
-- **Testing Strategy:** Comprehensive test planning từ requirements
-- **Documentation:** Extensive test documentation
-- **Metrics:** Defect density, test coverage
-- **Benefit:** Predictable quality, formal verification
+**Quản lý chất lượng theo V-Model:**
+- **Tập trung phòng ngừa:** Thiết kế cổng chất lượng
+- **Chiến lược kiểm thử:** Lập kế hoạch kiểm thử toàn diện từ yêu cầu
+- **Tài liệu:** Tài liệu kiểm thử chi tiết
+- **Chỉ số đo lường:** Mật độ lỗi, độ bao phủ kiểm thử
+- **Lợi ích:** Chất lượng dự đoán được, xác minh chính thức
 
-**Agile Quality Management:**
-- **Built-in Quality:** Test-driven development, pair programming
-- **Continuous Integration:** Automated testing pipeline
-- **Definition of Done:** Quality criteria cho mỗi story
-- **Metrics:** Velocity, burn-down, customer satisfaction
-- **Benefit:** Fast feedback, adaptive quality
+**Quản lý chất lượng theo Agile:**
+- **Chất lượng tích hợp:** Phát triển hướng kiểm thử, lập trình cặp
+- **Tích hợp liên tục:** Đường ống kiểm thử tự động
+- **Định nghĩa hoàn thành:** Tiêu chí chất lượng cho mỗi user story
+- **Chỉ số đo lường:** Tốc độ, burn-down, sự hài lòng của khách hàng
+- **Lợi ích:** Phản hồi nhanh, chất lượng thích ứng
 
-**Incremental Quality Management:**
-- **Progressive Quality:** Quality improves qua các increment
-- **User Acceptance:** Real user testing cho mỗi increment
-- **Regression Testing:** Ensure previous increments still work
-- **Metrics:** Increment acceptance rate, cumulative defects
-- **Benefit:** User-validated quality, early problem detection
+**Quản lý chất lượng theo Incremental:**
+- **Chất lượng tiến triển:** Chất lượng cải thiện qua từng increment
+- **Chấp nhận người dùng:** Kiểm thử người dùng thực cho mỗi increment
+- **Kiểm thử hồi quy:** Đảm bảo các increment trước vẫn hoạt động tốt
+- **Chỉ số đo lường:** Tỷ lệ chấp nhận increment, lỗi tích lũy
+- **Lợi ích:** Chất lượng được xác nhận bởi người dùng, phát hiện sớm vấn đề
 
-**Quality Comparison:**
+**So sánh chất lượng:**
 
-| Aspect | V-Model | Agile | Incremental |
+| Khía cạnh | V-Model | Agile | Incremental |
 |--------|---------|-------|-------------|
-| **Defect Prevention** | Excellent | Good | Good |
-| **Early Detection** | Poor | Excellent | Good |
-| **User Satisfaction** | Risk | High | High |
-| **Compliance** | Excellent | Moderate | Good |
+| **Phòng ngừa lỗi** | Xuất sắc | Tốt | Tốt |
+| **Phát hiện sớm** | Kém | Xuất sắc | Tốt |
+| **Sự hài lòng của người dùng** | Rủi ro | Cao | Cao |
+| **Tuân thủ quy định** | Xuất sắc | Trung bình | Tốt |
 
 ### Câu 23: Tình huống crisis management - COVID-19 impact
 **Đề bài:** Dự án phát triển hệ thống quản lý sự kiện đang ở giữa chừng khi COVID-19 bùng phát. Yêu cầu chuyển từ sự kiện offline sang online/hybrid. Team phải work from home. Mô hình nào handle tốt nhất?
 
 **Trả lời:**
 
-**Scenario Analysis:**
+**Phân tích tình huống:**
 
-**Pre-COVID State:**
-- 6-month project, 3 months completed
-- Requirements: Physical event management
-- Team: 10 developers, co-located
-- Technology: Web-based, designed for on-site check-in
+**Trạng thái trước COVID:**
+- Dự án 6 tháng, đã hoàn thành 3 tháng
+- Yêu cầu: Quản lý sự kiện vật lý
+- Nhóm: 10 developers, co-located
+- Công nghệ: Web-based, designed for on-site check-in
 
-**COVID Impact:**
-- ❌ Physical events cancelled/postponed
-- ❌ Team scattered (work from home)
-- ✅ New opportunity: Virtual events boom
-- ⚡ Urgent need: Pivot quickly or lose market
+**Tác động của COVID:**
+- ❌ Sự kiện vật lý bị hủy/hoãn
+- ❌ Nhóm phân tán (work from home)
+- ✅ Cơ hội mới: Bùng nổ sự kiện trực tuyến
+- ⚡ Nhu cầu khẩn cấp: Chuyển hướng nhanh hoặc mất thị trường
 
-**Model Comparison:**
+**So sánh mô hình:**
 
-**If using Waterfall:**
-- ❌ **Major Problem:** Requirements phase done, design locked
-- ❌ **Change Cost:** 50-100x (complete redesign)
-- ❌ **Timeline:** 6+ months for pivot
-- ❌ **Team Issues:** Documentation-heavy, hard to coordinate remotely
+**Nếu sử dụng Waterfall:**
+- ❌ **Vấn đề lớn:** Giai đoạn yêu cầu đã hoàn thành, thiết kế đã khóa
+- ❌ **Chi phí thay đổi:** 50-100x (thiết kế lại hoàn toàn)
+- ❌ **Thời gian:** 6+ tháng để chuyển hướng
+- ❌ **Vấn đề nhóm:** Nặng tài liệu, khó phối hợp từ xa
 
-**If using Incremental:**
-- ✅ **Advantage:** Can pivot upcoming increments
-- ⚠️ **Challenge:** Architecture might not support virtual events
-- ✅ **Timeline:** 2-3 months for pivot
-- ✅ **Team:** Increments can be developed independently
+**Nếu sử dụng Incremental:**
+- ✅ **Ưu điểm:** Có thể chuyển hướng các increment sắp tới
+- ⚠️ **Thách thức:** Kiến trúc có thể không hỗ trợ sự kiện ảo
+- ✅ **Thời gian:** 2-3 tháng để chuyển hướng
+- ✅ **Nhóm:** Các increment có thể được phát triển độc lập
 
-**If using Agile:**
-- ✅ **Best Response:** Embracing change is core principle
-- ✅ **Re-prioritization:** Product backlog reshuffled immediately
-- ✅ **Timeline:** 2-4 sprints (1-2 months) for MVP pivot
-- ✅ **Team:** Daily standups work well remotely
+**Nếu sử dụng Agile:**
+- ✅ **Phản ứng tốt nhất:** Chấp nhận thay đổi là nguyên tắc cốt lõi
+- ✅ **Ưu tiên lại:** Product backlog được sắp xếp lại ngay lập tức
+- ✅ **Thời gian:** 2-4 sprint (1-2 tháng) cho MVP chuyển hướng
+- ✅ **Nhóm:** Các buổi họp hàng ngày hoạt động tốt từ xa
 
-**Recommended Action Plan (Agile):**
-1. **Emergency Sprint Planning:** Re-define product vision
-2. **Spike Stories:** Research virtual event platforms
-3. **Pivot Sprint 1:** Basic virtual event creation
-4. **Pivot Sprint 2:** Live streaming integration
-5. **Pivot Sprint 3:** Attendee interaction features
+**Kế hoạch hành động khuyến nghị (Agile):**
+1. **Lập kế hoạch Sprint khẩn cấp:** Xác định lại tầm nhìn sản phẩm
+2. **Spike Stories:** Nghiên cứu nền tảng sự kiện ảo
+3. **Sprint chuyển hướng 1:** Tạo sự kiện ảo cơ bản
+4. **Sprint chuyển hướng 2:** Tích hợp phát trực tuyến
+5. **Sprint chuyển hướng 3:** Tính năng tương tác người tham dự
 
-**Success Outcome:** Many companies that pivoted quickly to virtual events (like Zoom, Microsoft Teams) saw explosive growth during pandemic.
+**Kết quả thành công:** Nhiều công ty chuyển hướng nhanh chóng sang sự kiện ảo (như Zoom, Microsoft Teams) đã chứng kiến sự tăng trưởng bùng nổ trong đại dịch.
 
-### Câu 24: ROI Analysis - Mô hình nào có ROI tốt nhất?
+### Câu 24: Phân tích ROI - Mô hình nào có ROI tốt nhất?
 **Trả lời:**
 
-**ROI Calculation Framework:**
+**Khung tính toán ROI:**
 
-**Investment Components:**
-- Development Cost
-- Training Cost
-- Tool/Infrastructure Cost
-- Risk/Rework Cost
+**Thành phần đầu tư:**
+- Chi phí phát triển
+- Chi phí đào tạo
+- Chi phí công cụ/hạ tầng
+- Chi phí rủi ro/làm lại
 
-**Return Components:**
-- Time to Market Value
-- Quality Benefits
-- Maintenance Savings
-- Customer Satisfaction
+**Thành phần lợi nhuận:**
+- Giá trị thời gian ra thị trường
+- Lợi ích chất lượng
+- Tiết kiệm bảo trì
+- Sự hài lòng của khách hàng
 
-**Case Study: E-learning Platform ($500K budget)**
+**Nghiên cứu tình huống: Nền tảng E-learning (ngân sách $500K)**
 
-**Waterfall ROI:**
+**ROI Waterfall:**
 ```
-Investment: $500K + $100K (tools) + $50K (rework) = $650K
-Returns:
-- Time to Market: 12 months (late to market penalty: -$200K)
-- Quality: High initial quality (+$100K)
-- Maintenance: High cost (-$50K/year)
-ROI Year 1: ($500K - $650K) / $650K = -23%
-```
-
-**Agile ROI:**
-```
-Investment: $500K + $30K (training) + $20K (tools) = $550K
-Returns:
-- Time to Market: 6 months (early market advantage: +$300K)
-- Quality: Good with iterations (+$150K)
-- Maintenance: Moderate cost (-$30K/year)
-ROI Year 1: ($750K - $550K) / $550K = +36%
+Đầu tư: $500K + $100K (công cụ) + $50K (làm lại) = $650K
+Lợi nhuận:
+- Thời gian ra thị trường: 12 tháng (phạt do ra thị trường muộn: -$200K)
+- Chất lượng: Chất lượng ban đầu cao (+$100K)
+- Bảo trì: Chi phí cao (-$50K/năm)
+ROI Năm 1: ($500K - $650K) / $650K = -23%
 ```
 
-**Incremental ROI:**
+**ROI Agile:**
 ```
-Investment: $500K + $40K (coordination) + $30K (integration) = $570K
-Returns:
-- Time to Market: 3 months first increment (+$200K)
-- Quality: Progressive improvement (+$120K)
-- Maintenance: Low-moderate cost (-$35K/year)
-ROI Year 1: ($650K - $570K) / $570K = +14%
+Đầu tư: $500K + $30K (đào tạo) + $20K (công cụ) = $550K
+Lợi nhuận:
+- Thời gian ra thị trường: 6 tháng (lợi thế thị trường sớm: +$300K)
+- Chất lượng: Tốt với các lần lặp (+$150K)
+- Bảo trì: Chi phí trung bình (-$30K/năm)
+ROI Năm 1: ($750K - $550K) / $550K = +36%
 ```
 
-**ROI Ranking:**
-1. **Agile: +36%** (Best for uncertain markets)
-2. **Incremental: +14%** (Steady returns)
-3. **Waterfall: -23%** (High risk, late returns)
+**ROI Incremental:**
+```
+Đầu tư: $500K + $40K (phối hợp) + $30K (tích hợp) = $570K
+Lợi nhuận:
+- Thời gian ra thị trường: 3 tháng cho increment đầu tiên (+$200K)
+- Chất lượng: Cải thiện tiến triển (+$120K)
+- Bảo trì: Chi phí thấp-trung bình (-$35K/năm)
+ROI Năm 1: ($650K - $570K) / $570K = +14%
+```
 
-### Câu 25: Tổng hợp - Decision Matrix cho lựa chọn mô hình
+**Xếp hạng ROI:**
+1. **Agile: +36%** (Tốt nhất cho thị trường không chắc chắn)
+2. **Incremental: +14%** (Lợi nhuận ổn định)
+3. **Waterfall: -23%** (Rủi ro cao, lợi nhuận muộn)
+
+### Câu 25: Tổng hợp - Ma trận quyết định cho lựa chọn mô hình
 **Trả lời:**
 
-**Multi-Criteria Decision Matrix:**
+**Ma trận quyết định đa tiêu chí:**
 
-| Criteria (Weight) | Waterfall | Incremental | Agile | Spiral | RAD |
+| Tiêu chí (Trọng số) | Waterfall | Incremental | Agile | Spiral | RAD |
 |-------------------|-----------|-------------|-------|--------|-----|
-| **Requirements Stability (20%)** | 9 | 6 | 3 | 5 | 4 |
-| **Time to Market (25%)** | 2 | 7 | 9 | 4 | 8 |
-| **Team Size Scalability (15%)** | 8 | 6 | 4 | 9 | 3 |
-| **Change Adaptability (20%)** | 2 | 7 | 9 | 6 | 7 |
-| **Risk Management (10%)** | 6 | 5 | 4 | 9 | 3 |
-| **Resource Efficiency (10%)** | 5 | 7 | 8 | 4 | 9 |
+| **Độ ổn định yêu cầu (20%)** | 9 | 6 | 3 | 5 | 4 |
+| **Thời gian ra thị trường (25%)** | 2 | 7 | 9 | 4 | 8 |
+| **Khả năng mở rộng quy mô nhóm (15%)** | 8 | 6 | 4 | 9 | 3 |
+| **Khả năng thích ứng thay đổi (20%)** | 2 | 7 | 9 | 6 | 7 |
+| **Quản lý rủi ro (10%)** | 6 | 5 | 4 | 9 | 3 |
+| **Hiệu quả tài nguyên (10%)** | 5 | 7 | 8 | 4 | 9 |
 
-**Weighted Scores:**
+**Điểm số có trọng số:**
 - **Agile:** (3×0.2) + (9×0.25) + (4×0.15) + (9×0.2) + (4×0.1) + (8×0.1) = **6.95**
 - **Incremental:** (6×0.2) + (7×0.25) + (6×0.15) + (7×0.2) + (5×0.1) + (7×0.1) = **6.55**
 - **Spiral:** (5×0.2) + (4×0.25) + (9×0.15) + (6×0.2) + (9×0.1) + (4×0.1) = **5.85**
 - **RAD:** (4×0.2) + (8×0.25) + (3×0.15) + (7×0.2) + (3×0.1) + (9×0.1) = **6.25**
 - **Waterfall:** (9×0.2) + (2×0.25) + (8×0.15) + (2×0.2) + (6×0.1) + (5×0.1) = **4.90**
 
-**Recommendations by Context:**
+**Khuyến nghị theo ngữ cảnh:**
 
-**Startup/Innovation Projects:** → **Agile** (Score: 6.95)
-- High change adaptability
-- Fast time to market
-- Resource efficiency
+**Dự án Startup/Đổi mới:** → **Agile** (Điểm: 6.95)
+- Khả năng thích ứng thay đổi cao
+- Thời gian ra thị trường nhanh
+- Hiệu quả tài nguyên
 
-**Enterprise/Large Scale:** → **Incremental** (Score: 6.55)
-- Balance between control và flexibility
-- Good scalability
-- Reasonable risk management
+**Doanh nghiệp/Quy mô lớn:** → **Incremental** (Điểm: 6.55)
+- Cân bằng giữa kiểm soát và linh hoạt
+- Khả năng mở rộng tốt
+- Quản lý rủi ro hợp lý
 
-**High-Risk/Regulated:** → **Spiral** (Score: 5.85)
-- Excellent risk management
-- Good for large teams
-- Handles uncertainty well
+**Rủi ro cao/Môi trường được quy định:** → **Spiral** (Điểm: 5.85)
+- Quản lý rủi ro xuất sắc
+- Phù hợp với nhóm lớn
+- Xử lý tốt sự không chắc chắn
 
-**Prototype/Proof of Concept:** → **RAD** (Score: 6.25)
-- Fastest development
-- Resource efficient
-- Good for small scope
+**Prototype/Chứng minh khái niệm:** → **RAD** (Điểm: 6.25)
+- Phát triển nhanh nhất
+- Hiệu quả tài nguyên
+- Phù hợp với phạm vi nhỏ
 
-**Stable Requirements/Mission Critical:** → **Waterfall** (Score: 4.90)
-- Best when requirements are stable
-- Predictable outcomes
-- Formal documentation
+**Yêu cầu ổn định/Nhiệm vụ quan trọng:** → **Waterfall** (Điểm: 4.90)
+- Tốt nhất khi yêu cầu ổn định
+- Kết quả dự đoán được
+- Tài liệu chính thức
 
 ---
 
@@ -696,21 +696,21 @@ Việc lựa chọn mô hình quy trình phần mềm phù hợp là yếu tố 
 
 ### Yếu tố quyết định chính:
 1. **Tính chất yêu cầu:** Stable vs Changing
-2. **Time pressure:** Urgent vs Flexible timeline
-3. **Team context:** Size, experience, location
-4. **Risk tolerance:** High vs Low
-5. **Budget constraints:** Limited vs Abundant resources
+2. **Áp lực thời gian:** Khẩn cấp vs Linh hoạt
+3. **Bối cảnh nhóm:** Quy mô, kinh nghiệm, vị trí
+4. **Khả năng chịu rủi ro:** Cao vs Thấp
+5. **Hạn chế ngân sách:** Tài nguyên hạn chế vs Dồi dào
 
 ### Xu hướng hiện tại:
-- **Agile** trở thành mainstream cho phần lớn dự án
-- **Hybrid approaches** kết hợp ưu điểm nhiều mô hình
+- **Agile** trở thành xu hướng chính cho phần lớn dự án
+- **Phương pháp kết hợp** tận dụng ưu điểm nhiều mô hình
 - **DevOps** tích hợp development và operations
-- **Continuous delivery** là tiêu chuẩn mới
+- **Giao hàng liên tục** là tiêu chuẩn mới
 
 ### Lời khuyên thực tiễn:
-1. **Start simple:** Bắt đầu với mô hình đơn giản, evolve theo nhu cầu
-2. **Measure và adapt:** Sử dụng metrics để đánh giá và cải tiến
-3. **People over process:** Quy trình phục vụ con người, không ngược lại
-4. **Customer value:** Focus vào deliver value cho customer sớm nhất
+1. **Bắt đầu đơn giản:** Khởi đầu với mô hình đơn giản, phát triển theo nhu cầu
+2. **Đo lường và thích ứng:** Sử dụng các chỉ số để đánh giá và cải tiến
+3. **Con người hơn quy trình:** Quy trình phục vụ con người, không ngược lại
+4. **Giá trị khách hàng:** Tập trung vào việc mang lại giá trị cho khách hàng sớm nhất
 
 **Chúc các bạn ôn tập tốt và thành công trong kỳ thi!** 🚀
