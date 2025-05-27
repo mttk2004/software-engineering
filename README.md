@@ -35,14 +35,19 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 - [Ưu điểm trong môi trường thay đổi](de-cuong/ly-thuyet.md#4-ưu-điểm-trong-môi-trường-thay-đổi)
 - [Câu hỏi tình huống và phân tích](de-cuong/ly-thuyet.md#5-câu-hỏi-tình-huống-và-phân-tích)
 
-### [Hướng dẫn vẽ diagrams](diagrams/)
-Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loại sơ đồ (diagrams) khác nhau trong công nghệ phần mềm, bao gồm:
-- UML diagrams
-- Entity-Relationship diagrams
-- Sequence diagrams
-- Activity diagrams
-- Class diagrams
-- Và các loại sơ đồ khác
+### [Đề thi dự đoán và đáp án](de-cuong/)
+- [Đề thi dự đoán](de-cuong/exam_paper.md) - Đề thi mẫu dựa trên đề cương môn học
+- [Đáp án chi tiết](de-cuong/answer_key.md) - Bài giải mẫu cho đề thi dự đoán
+
+### Hướng dẫn vẽ diagrams
+Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loại sơ đồ (diagrams) khác nhau trong công nghệ phần mềm:
+- [Use Case Diagram](diagrams/use_case.md) - Sơ đồ trường hợp sử dụng
+- [Class Diagram](diagrams/class.md) - Sơ đồ lớp
+- [Activity Diagram](diagrams/activity.md) - Sơ đồ hoạt động
+- [Sequence Diagram](diagrams/sequence.md) - Sơ đồ trình tự
+- [State Diagram](diagrams/state.md) - Sơ đồ trạng thái
+- [Component Diagram](diagrams/component.md) - Sơ đồ thành phần
+- [Entity-Relationship Diagram](diagrams/er.md) - Sơ đồ thực thể quan hệ
 
 ## Danh sách các câu hỏi nổi bật
 
@@ -65,6 +70,12 @@ Thư mục này chứa các hướng dẫn chi tiết về cách vẽ các loạ
 1. [Mô hình V-Model và ví dụ minh họa](de-cuong/ly-thuyet.md#câu-1-mô-hình-v-model-là-gì-cho-ví-dụ-minh-họa)
 2. [So sánh khả năng thích ứng của các mô hình trong bối cảnh COVID-19](de-cuong/ly-thuyet.md#câu-8-so-sánh-khả-năng-thích-ứng-của-ba-mô-hình-trong-bối-cảnh-covid-19)
 3. [Phân tích ROI của các mô hình phát triển phần mềm](de-cuong/ly-thuyet.md#câu-24-roi-analysis---mô-hình-nào-có-roi-tốt-nhất)
+
+### Đề thi dự đoán
+1. [So sánh Waterfall và Incremental Development](de-cuong/exam_paper.md#câu-1-30-điểm)
+2. [Mô hình quy trình cho hệ thống quản lý thư viện](de-cuong/exam_paper.md#câu-2-30-điểm)
+3. [Hệ thống đặt vé máy bay trực tuyến](de-cuong/exam_paper.md#câu-3-20-điểm)
+4. [Thiết kế Class Diagram](de-cuong/exam_paper.md#câu-4-20-điểm)
 
 ## Đóng góp
 
