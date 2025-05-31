@@ -4,13 +4,18 @@
 
 ### TRƯỜNG ĐẠI HỌC SÀI GÒN
 #### ĐỀ THI KẾT THÚC HỌC PHẦN - BIẾN THỂ 3
-**Học phần:** CÔNG NGHỆ PHẦN MÀM
+**Học phần:** CÔNG NGHỆ PHẦN MỀM
 **Mã học phần:** 841047
+
 *Thời gian làm bài: 90 phút, không kể thời gian phát đề*
 
-**Học kì:** I............................... **Năm học:** 2024-2025.............................
-**Trình độ đào tạo:** Đại học ........................... **Hình thức đào tạo:** Chính quy **Hệ:** Đại trà
-**Họ tên sinh viên:** ...................................... **Mã số sinh viên:** ......................................
+**Học kì:** I...............................
+**Năm học:** 2024-2025.............................
+**Trình độ đào tạo:** Đại học ...........................
+**Hình thức đào tạo:** Chính quy
+**Hệ:** Đại trà
+**Họ tên sinh viên:** ......................................
+**Mã số sinh viên:** ......................................
 
 *Sinh viên KHÔNG sử dụng tài liệu.*
 
@@ -26,9 +31,9 @@ Cho hệ thống đặt vé trực tuyến gồm các chức năng: tìm kiếm,
 
 a. Liệt kê các actor chính tương tác với hệ thống và mô tả ngắn gọn vai trò của từng actor. (1,0 đ)
 
-b. Nêu 3 use case liên quan đến hủy vé của khách hàng và phân biệt quan hệ <<`include`>>, <<`extend`>> trong use case. (1,0 đ)
+b. Nêu 3 use case liên quan đến hủy vé của khách hàng và phân biệt quan hệ <<`include`>>, <<`extend`>> trong use case. (0,5 đ)
 
-c. Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống này. (1,0 đ)
+c. Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống này. (0,5 đ)
 
 ### Câu 3. (2,0 điểm)
 a. Vẽ sơ đồ lớp (Class Diagram) cho hệ thống đặt vé với các lớp: Customer, Booking, Ticket, Payment. Bao gồm thuộc tính và biểu diễn quan hệ giữa các lớp. (1,0 đ)
@@ -38,7 +43,9 @@ b. Nêu các ràng buộc hợp lệ (constraint) cho lớp Ticket với các th
 ### Câu 4. (2,0 điểm)
 a. Mô tả trình tự xử lý khi khách hàng đặt vé trong hệ thống đặt vé trực tuyến. (1,0 đ)
 
-b. Viết 2 test case để kiểm thử chức năng "Hủy vé" (bao gồm input và output mong đợi). (1,0 đ)
+b. Viết 2 test case để kiểm thử chức năng "Hủy vé" (bao gồm input và output mong đợi). (0,5 đ)
+
+c. Mô tả quy trình CI/CD cho việc phát triển hệ thống đặt vé trực tuyến này. (0,5 đ)
 
 ---
 
@@ -106,7 +113,7 @@ Module Design ←→ Unit Testing
    - Gửi email xác nhận
    - Gửi SMS thông báo
 
-#### b. Use case hủy vé và quan hệ (1,0 đ)
+#### b. Use case hủy vé và quan hệ (0,5 đ)
 
 **3 Use case liên quan đến hủy vé:**
 1. **Kiểm tra điều kiện hủy vé**
@@ -121,7 +128,7 @@ Module Design ←→ Unit Testing
 - **<<`include`>>:** Quan hệ bắt buộc, luôn thực hiện
 - **<<`extend`>>:** Quan hệ tùy chọn, thực hiện khi có điều kiện
 
-#### c. Yêu cầu hệ thống (1,0 đ)
+#### c. Yêu cầu hệ thống (0,5 đ)
 
 **Yêu cầu chức năng:**
 - Tìm kiếm vé theo điểm đi, điểm đến, ngày bay
@@ -224,7 +231,7 @@ Module Design ←→ Unit Testing
 13. **Hệ thống → Notification Service:** Gửi email xác nhận
 14. **Hệ thống → Khách hàng:** Hiển thị thông tin vé đã đặt
 
-#### b. Test case cho chức năng "Hủy vé" (1,0 đ)
+#### b. Test case cho chức năng "Hủy vé" (0,5 đ)
 
 **Test Case 1: Hủy vé thành công**
 - **Input:**
@@ -254,3 +261,24 @@ Module Design ←→ Unit Testing
 - **Expected Output:**
   - Lỗi: "Không tìm thấy thông tin vé với mã TK99999999"
   - Gợi ý: "Vui lòng kiểm tra lại mã vé hoặc liên hệ hỗ trợ."
+
+#### c. Quy trình CI/CD cho hệ thống đặt vé (0,5 đ)
+
+**Continuous Integration (CI):**
+- **Source Control Management:** Sử dụng Git với nhánh phát triển (develop) và nhánh chính (main)
+- **Automated Build:** Mỗi khi có code mới được push lên repository, hệ thống tự động build ứng dụng
+- **Unit Testing:** Thực hiện kiểm thử tự động cho từng đơn vị code
+- **Code Quality Analysis:** Sử dụng SonarQube để kiểm tra chất lượng mã nguồn
+- **Security Testing:** Kiểm tra lỗ hổng bảo mật với công cụ OWASP ZAP
+
+**Continuous Delivery/Deployment (CD):**
+- **Automated Deployment:** Tự động triển khai đến môi trường test, staging và production
+- **Infrastructure as Code:** Sử dụng Docker và Kubernetes để đóng gói và quản lý ứng dụng
+- **Canary Deployment:** Triển khai dần dần để giảm thiểu rủi ro
+- **Rollback Strategy:** Khả năng quay lại phiên bản trước nếu phát hiện lỗi
+
+**Tools và Platforms:**
+- **CI/CD Tools:** Jenkins, GitLab CI/CD hoặc GitHub Actions
+- **Monitoring:** Prometheus và Grafana để giám sát hiệu suất hệ thống
+- **Logging:** ELK Stack (Elasticsearch, Logstash, Kibana) để thu thập và phân tích log
+- **Notification:** Tự động thông báo qua Slack/Email khi có build thất bại hoặc vấn đề triển khai

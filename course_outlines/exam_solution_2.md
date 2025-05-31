@@ -4,13 +4,18 @@
 
 ### TRƯỜNG ĐẠI HỌC SÀI GÒN
 #### ĐỀ THI KẾT THÚC HỌC PHẦN - BIẾN THỂ 2
-**Học phần:** CÔNG NGHỆ PHẦN MÀM
+**Học phần:** CÔNG NGHỆ PHẦN MỀM
 **Mã học phần:** 841047
+
 *Thời gian làm bài: 90 phút, không kể thời gian phát đề*
 
-**Học kì:** I............................... **Năm học:** 2024-2025.............................
-**Trình độ đào tạo:** Đại học ........................... **Hình thức đào tạo:** Chính quy **Hệ:** Đại trà
-**Họ tên sinh viên:** ...................................... **Mã số sinh viên:** ......................................
+**Học kì:** I...............................
+**Năm học:** 2024-2025.............................
+**Trình độ đào tạo:** Đại học ...........................
+**Hình thức đào tạo:** Chính quy
+**Hệ:** Đại trà
+**Họ tên sinh viên:** ......................................
+**Mã số sinh viên:** ......................................
 
 *Sinh viên KHÔNG sử dụng tài liệu.*
 
@@ -37,9 +42,24 @@ Từ đó, đưa ra nhận xét về ưu điểm của mô hình Incremental khi
 ### Câu 3. (2,0 điểm)
 Xét hệ thống đặt vé trực tuyến (cinema booking system) gồm các chức năng: tìm kiếm phim, đặt vé, thanh toán, hủy đặt vé và gửi thông báo.
 
-**a.** Nêu 3-4 use case liên quan đến việc hủy vé của khách hàng. Mô tả ngắn gọn mỗi use case. (1,0 đ)
+#### a. Nêu 3-4 use case liên quan đến việc hủy vé của khách hàng. Mô tả ngắn gọn mỗi use case. (1,0 đ)
 
-**b.** Phân biệt và cho ví dụ cụ thể về quan hệ <<`include`>> và <<`extend`>> trong use case diagram của hệ thống này. (1,0 đ)
+#### b.  Phân biệt và cho ví dụ cụ thể về quan hệ <<`include`>> và <<`extend`>> trong use case diagram của hệ thống này. (1,0 đ)
+
+#### c. Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống này (1,0 đ)
+**Yêu cầu chức năng:**
+- Tìm kiếm phim theo tên, thể loại, thời gian chiếu
+- Đặt vé và chọn chỗ ngồi
+- Thanh toán trực tuyến qua nhiều phương thức (thẻ tín dụng, ví điện tử)
+- Hủy vé và nhận hoàn tiền
+- Gửi thông báo xác nhận và nhắc nhở qua email/SMS
+
+**Yêu cầu phi chức năng:**
+- Hiệu năng: Xử lý 1000 truy vấn tìm kiếm/phút
+- Bảo mật: Mã hóa dữ liệu người dùng, sử dụng HTTPS
+- Khả dụng: Uptime 99.9%, chịu lỗi nút
+- Khả năng mở rộng: Hỗ trợ tăng số lượng user đồng thời
+- Thời gian phản hồi: <2 giây cho mỗi request
 
 ---
 
@@ -55,6 +75,15 @@ Thiết kế hệ thống cinema booking với các lớp chính:
 Biểu diễn quan hệ giữa các lớp và trình bày ý nghĩa của từng mối quan hệ. (1,5 đ)
 
 **b.** Nêu 2 ràng buộc hợp lệ (constraint) cho lớp Booking. (0,5 đ)
+
+#### c. Mô tả quy trình triển khai CI/CD cho hệ thống này (0,5 đ)
+- Quản lý mã nguồn với Git, nhánh `main` và `develop`
+- Thiết lập GitLab CI/GitHub Actions với các stage: build, test, deploy
+- Stage build: build code, tạo Docker image
+- Stage test: chạy unit test, integration test, đảm bảo coverage >=80%
+- Stage deploy: deploy tự động lên môi trường staging và production
+- Sử dụng Kubernetes để quản lý container và rollback tự động khi gặp lỗi
+- Tích hợp monitoring (Prometheus, Grafana) và alert khi có sự cố
 
 ---
 
@@ -192,12 +221,25 @@ Biểu diễn quan hệ giữa các lớp và trình bày ý nghĩa của từng
 ```
 "Apply Discount Code" <<extend>> "Book Movie Ticket"
 ```
-- Việc áp dụng mã giảm giá chỉ xảy ra khi khách hàng có mã
-- Có thể đặt vé mà không cần dùng mã giảm giá
 
 **Sự khác biệt:**
 - **Include:** Bắt buộc, luôn xảy ra
 - **Extend:** Tùy chọn, chỉ xảy ra trong điều kiện đặc biệt
+
+#### c. Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống này (1,0 đ)
+**Yêu cầu chức năng:**
+- Tìm kiếm phim theo tên, thể loại, thời gian chiếu
+- Đặt vé và chọn chỗ ngồi
+- Thanh toán trực tuyến qua nhiều phương thức (thẻ tín dụng, ví điện tử)
+- Hủy vé và nhận hoàn tiền
+- Gửi thông báo xác nhận và nhắc nhở qua email/SMS
+
+**Yêu cầu phi chức năng:**
+- Hiệu năng: Xử lý 1000 truy vấn tìm kiếm/phút
+- Bảo mật: Mã hóa dữ liệu người dùng, sử dụng HTTPS
+- Khả dụng: Uptime 99.9%, chịu lỗi nút
+- Khả năng mở rộng: Hỗ trợ tăng số lượng user đồng thời
+- Thời gian phản hồi: <2 giây cho mỗi request
 
 ---
 
@@ -264,3 +306,12 @@ Biểu diễn quan hệ giữa các lớp và trình bày ý nghĩa của từng
 - Constraints đảm bảo tính nhất quán và logic nghiệp vụ
 - Ngăn chặn việc đặt vé không hợp lệ (quá muộn, ghế đã được đặt)
 - Có thể implement ở database level hoặc application level
+
+#### c. Mô tả quy trình triển khai CI/CD cho hệ thống này (0,5 đ)
+- Quản lý mã nguồn với Git, nhánh `main` và `develop`
+- Thiết lập GitLab CI/GitHub Actions với các stage: build, test, deploy
+- Stage build: build code, tạo Docker image
+- Stage test: chạy unit test, integration test, đảm bảo coverage >=80%
+- Stage deploy: deploy tự động lên môi trường staging và production
+- Sử dụng Kubernetes để quản lý container và rollback tự động khi gặp lỗi
+- Tích hợp monitoring (Prometheus, Grafana) và alert khi có sự cố

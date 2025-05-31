@@ -4,13 +4,18 @@
 
 ### TRƯỜNG ĐẠI HỌC SÀI GÒN
 #### ĐỀ THI KẾT THÚC HỌC PHẦN
-**Học phần:** CÔNG NGHỆ PHẦN MẠM
+**Học phần:** CÔNG NGHỆ PHẦN MỀM
 **Mã học phần:** 841047
+
 *Thời gian làm bài: 90 phút, không kể thời gian phát đề*
 
-**Học kì:** I............................... **Năm học:** 2024-2025.............................
-**Trình độ đào tạo:** Đại học ........................... **Hình thức đào tạo:** Chính quy **Hệ:** Đại trà
-**Họ tên sinh viên:** ...................................... **Mã số sinh viên:** ......................................
+**Học kì:** I...............................
+**Năm học:** 2024-2025.............................
+**Trình độ đào tạo:** Đại học ...........................
+**Hình thức đào tạo:** Chính quy
+**Hệ:** Đại trà
+**Họ tên sinh viên:** ......................................
+**Mã số sinh viên:** ......................................
 
 *Sinh viên KHÔNG sử dụng tài liệu.*
 
@@ -41,7 +46,9 @@ Xét hệ thống đặt vé máy bay trực tuyến với các chức năng ch�
 
 **a.** Liệt kê các actor chính tương tác với hệ thống và mô tả ngắn gọn vai trò của từng actor. (1,0 đ)
 
-**b.** Viết 3 user story cho chức năng "Đặt vé máy bay". (1,0 đ)
+**b.** Viết 3 user story cho chức năng "Đặt vé máy bay". (0,5 đ)
+
+**c.** Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống đặt vé này. (0,5 đ)
 
 ---
 
@@ -50,7 +57,9 @@ Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp 
 
 **a.** Vẽ Class Diagram bao gồm các lớp: Customer, Flight, Booking, Payment với các thuộc tính cơ bản và mối quan hệ giữa chúng. (1,0 đ)
 
-**b.** Mô tả ý nghĩa của các mối quan hệ trong Class Diagram vừa vẽ. (1,0 đ)
+**b.** Mô tả ý nghĩa của các mối quan hệ trong Class Diagram vừa vẽ. (0,5 đ)
+
+**c.** Viết 2 test case để kiểm thử chức năng "Đặt vé máy bay", bao gồm input và output mong đợi. (0,5 đ)
 
 ---
 
@@ -185,7 +194,7 @@ Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp 
    - Xác thực thông tin thẻ
    - Gửi kết quả thanh toán
 
-#### b. 3 User Story cho chức năng "Đặt vé máy bay" (1,0 đ)
+#### b. 3 User Story cho chức năng "Đặt vé máy bay" (0,5 đ)
 
 1. **User Story 1:**
    - **Như một** khách hàng
@@ -201,6 +210,24 @@ Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp 
    - **Như một** khách hàng
    - **Tôi muốn** thanh toán trực tuyến bằng thẻ tín dụng/debit
    - **Để** hoàn tất việc đặt vé và nhận xác nhận booking
+
+#### c. Yêu cầu chức năng và yêu cầu phi chức năng (0,5 đ)
+
+**Yêu cầu chức năng:**
+- Tìm kiếm chuyến bay theo điểm đi, điểm đến, ngày và giá
+- Đặt vé và chọn chỗ ngồi trên chuyến bay
+- Thanh toán trực tuyến qua nhiều phương thức (thẻ, ví điện tử)
+- Hủy vé và hoàn tiền theo chính sách
+- Gửi thông báo xác nhận đặt vé và check-in
+- Kiểm tra lịch sử đặt vé và trạng thái chuyến bay
+
+**Yêu cầu phi chức năng:**
+- Hiệu năng: Xử lý tối thiểu 5000 giao dịch/giờ
+- Bảo mật: Mã hóa dữ liệu thanh toán, tuân thủ PCI DSS
+- Khả dụng: Hệ thống hoạt động 24/7, uptime 99.95%
+- Khả năng mở rộng: Dễ dàng thêm hãng bay mới
+- Thời gian phản hồi: Dưới 3 giây cho mỗi truy vấn
+- Tương thích: Hoạt động trên mọi trình duyệt và thiết bị
 
 ---
 
@@ -246,7 +273,7 @@ Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp 
 └─────────────────┘
 ```
 
-#### b. Ý nghĩa các mối quan hệ (1,0 đ)
+#### b. Mô tả ý nghĩa của các mối quan hệ (0,5 đ)
 
 1. **Customer - Booking (1:*):**
    - Một khách hàng có thể có nhiều booking
@@ -267,4 +294,35 @@ Trong hệ thống đặt vé máy bay ở câu 3, hãy thiết kế các lớp 
 - **Multiplicity (1, *, 1:1, 1:*)** thể hiện số lượng đối tượng tham gia vào quan hệ
 - **Composition** (◆): đối tượng con không thể tồn tại độc lập khi đối tượng cha bị xóa
 - **Association** (──): mối quan hệ lỏng lẻo giữa các đối tượng
-</rewritten_file>
+
+#### c. Test cases cho chức năng "Đặt vé máy bay" (0,5 đ)
+
+**Test Case 1: Đặt vé thành công**
+- **Input:**
+  - Điểm đi: Hồ Chí Minh (SGN)
+  - Điểm đến: Hà Nội (HAN)
+  - Ngày bay: 15/12/2024
+  - Số hành khách: 2 người lớn
+  - Thông tin hành khách: Nguyễn Văn A (ID: 123456789), Trần Thị B (ID: 987654321)
+  - Chỗ ngồi: 15A, 15B
+  - Phương thức thanh toán: Thẻ tín dụng Visa
+  - Thông tin thẻ: 4111 1111 1111 1111, 12/25, CVV: 123
+- **Expected Output:**
+  - Mã đặt chỗ: Được tạo và hiển thị (VD: AB123C)
+  - Thông báo: "Đặt vé thành công"
+  - Email xác nhận: Gửi đến địa chỉ email đăng ký
+  - Trạng thái booking: "Confirmed"
+  - Tình trạng chỗ ngồi 15A, 15B: "Occupied"
+
+**Test Case 2: Đặt vé thất bại - Không đủ chỗ trống**
+- **Input:**
+  - Điểm đi: Hồ Chí Minh (SGN)
+  - Điểm đến: Đà Nẵng (DAD)
+  - Ngày bay: 24/12/2024 (chuyến bay đã hết chỗ)
+  - Số hành khách: 3 người lớn
+  - Thông tin hành khách: Đã nhập đầy đủ
+- **Expected Output:**
+  - Thông báo lỗi: "Không đủ chỗ trống cho 3 hành khách trên chuyến bay này"
+  - Gợi ý: "Vui lòng chọn chuyến bay khác hoặc giảm số lượng hành khách"
+  - Trạng thái booking: Không được tạo
+  - Không thực hiện thanh toán
