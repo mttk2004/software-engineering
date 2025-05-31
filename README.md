@@ -28,25 +28,26 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 - [Phần 10: Rational Unified Process](software_processes.md#phần-10-rational-unified-process-rup)
 - [Phần 11: Các vấn đề và thách thức khác](software_processes.md#phần-11-các-vấn-đề-và-thách-thức-khác)
 
-### [Đề cương ôn tập lý thuyết](de-cuong/ly-thuyet.md)
-- [Mô hình quy trình phần mềm cơ bản](de-cuong/ly-thuyet.md#1-mô-hình-quy-trình-phần-mềm-cơ-bản)
-- [Khả năng đáp ứng thay đổi yêu cầu](de-cuong/ly-thuyet.md#2-khả-năng-đáp-ứng-thay-đổi-yêu-cầu)
-- [So sánh tiến độ phát triển](de-cuong/ly-thuyet.md#3-so-sánh-tiến-độ-phát-triển)
-- [Ưu điểm trong môi trường thay đổi](de-cuong/ly-thuyet.md#4-ưu-điểm-trong-môi-trường-thay-đổi)
-- [Câu hỏi tình huống và phân tích](de-cuong/ly-thuyet.md#5-câu-hỏi-tình-huống-và-phân-tích)
+### [Đề cương ôn tập lý thuyết](course_outlines/theory.md)
+- [Mô hình quy trình phần mềm cơ bản](course_outlines/theory.md#1-mô-hình-quy-trình-phần-mềm-cơ-bản)
+- [Khả năng đáp ứng thay đổi yêu cầu](course_outlines/theory.md#2-khả-năng-đáp-ứng-thay-đổi-yêu-cầu)
+- [So sánh tiến độ phát triển](course_outlines/theory.md#3-so-sánh-tiến-độ-phát-triển)
+- [Ưu điểm trong môi trường thay đổi](course_outlines/theory.md#4-ưu-điểm-trong-môi-trường-thay-đổi)
+- [Câu hỏi tình huống và phân tích](course_outlines/theory.md#5-câu-hỏi-tình-huống-và-phân-tích)
 
 ### Đề thi dự đoán và đáp án
-- [Đề thi và đáp án - Biến thể 1](de-cuong/exam_solution_1.md) - Đề thi và bài giải về hệ thống đặt vé máy bay
-- [Đề thi và đáp án - Biến thể 2](de-cuong/exam_solution_2.md) - Đề thi và bài giải về hệ thống đặt vé xem phim
+- [Đề thi và đáp án - Biến thể 1](course_outlines/exam_solution_1.md) - Đề thi và bài giải về hệ thống đặt vé máy bay
+- [Đề thi và đáp án - Biến thể 2](course_outlines/exam_solution_2.md) - Đề thi và bài giải về hệ thống đặt vé xem phim
+- [Đề thi và đáp án - Biến thể 3](course_outlines/exam_solution_3.md) - Đề thi và bài giải về hệ thống thương mại điện tử
 
 ### Hướng dẫn vẽ các loại diagram
-- [Use Case Diagram](diagrams/use_case.md) - Sơ đồ trường hợp sử dụng
-- [Class Diagram](diagrams/class.md) - Sơ đồ lớp
-- [Activity Diagram](diagrams/activity.md) - Sơ đồ hoạt động
-- [Sequence Diagram](diagrams/sequence.md) - Sơ đồ trình tự
-- [State Diagram](diagrams/state.md) - Sơ đồ trạng thái
-- [Component Diagram](diagrams/component.md) - Sơ đồ thành phần
-- [Entity-Relationship Diagram](diagrams/er.md) - Sơ đồ thực thể quan hệ
+- [Use Case Diagram](diagrams/use_case_diagram.md) - Sơ đồ trường hợp sử dụng
+- [Class Diagram](diagrams/class_diagram.md) - Sơ đồ lớp
+- [Activity Diagram](diagrams/activity_diagram.md) - Sơ đồ hoạt động
+- [Sequence Diagram](diagrams/sequence_diagram.md) - Sơ đồ trình tự
+- [State Diagram](diagrams/state_diagram.md) - Sơ đồ trạng thái
+- [Component Diagram](diagrams/component_diagram.md) - Sơ đồ thành phần
+- [Entity-Relationship Diagram](diagrams/er_diagram.md) - Sơ đồ thực thể quan hệ
 
 ## Danh sách các câu hỏi nổi bật
 
@@ -66,15 +67,16 @@ Repository này chứa các tài liệu ôn tập dưới dạng câu hỏi - tr
 6. [So sánh các mô hình quy trình phần mềm](software_processes.md#câu-49-tổng-hợp-và-so-sánh-các-mô-hình-quy-trình-phần-mềm)
 
 ### Đề cương ôn tập lý thuyết
-1. [Mô hình V-Model và ví dụ minh họa](de-cuong/ly-thuyet.md#câu-1-mô-hình-v-model-là-gì-cho-ví-dụ-minh-họa)
-2. [So sánh khả năng thích ứng của các mô hình trong bối cảnh COVID-19](de-cuong/ly-thuyet.md#câu-8-so-sánh-khả-năng-thích-ứng-của-ba-mô-hình-trong-bối-cảnh-covid-19)
-3. [Phân tích ROI của các mô hình phát triển phần mềm](de-cuong/ly-thuyet.md#câu-24-roi-analysis---mô-hình-nào-có-roi-tốt-nhất)
+1. [Mô hình V-Model và ví dụ minh họa](course_outlines/theory.md#câu-1-mô-hình-v-model-là-gì-cho-ví-dụ-minh-họa)
+2. [So sánh khả năng thích ứng của các mô hình trong bối cảnh COVID-19](course_outlines/theory.md#câu-8-so-sánh-khả-năng-thích-ứng-của-ba-mô-hình-trong-bối-cảnh-covid-19)
+3. [Phân tích ROI của các mô hình phát triển phần mềm](course_outlines/theory.md#câu-24-roi-analysis---mô-hình-nào-có-roi-tốt-nhất)
 
 ### Đề thi dự đoán
-1. [So sánh Waterfall và Incremental Development](de-cuong/exam_solution_1.md#câu-1-30-điểm)
-2. [Mô hình quy trình cho hệ thống quản lý thư viện](de-cuong/exam_solution_1.md#câu-2-30-điểm)
-3. [Thiết kế Class Diagram cho hệ thống đặt vé](de-cuong/exam_solution_1.md#câu-4-20-điểm)
-4. [Dự án phù hợp với các mô hình phát triển phần mềm](de-cuong/exam_solution_2.md#câu-1-30-điểm)
+1. [So sánh Waterfall và Incremental Development](course_outlines/exam_solution_1.md#câu-1-30-điểm)
+2. [Mô hình quy trình cho hệ thống quản lý thư viện](course_outlines/exam_solution_1.md#câu-2-30-điểm)
+3. [Thiết kế Class Diagram cho hệ thống đặt vé](course_outlines/exam_solution_1.md#câu-4-20-điểm)
+4. [Dự án phù hợp với các mô hình phát triển phần mềm](course_outlines/exam_solution_2.md#câu-1-30-điểm)
+5. [Thiết kế kiến trúc cho hệ thống thương mại điện tử](course_outlines/exam_solution_3.md#câu-3-20-điểm)
 
 ## Đóng góp
 
