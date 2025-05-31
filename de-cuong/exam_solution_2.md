@@ -39,7 +39,7 @@ Xét hệ thống đặt vé trực tuyến (cinema booking system) gồm các c
 
 **a.** Nêu 3-4 use case liên quan đến việc hủy vé của khách hàng. Mô tả ngắn gọn mỗi use case. (1,0 đ)
 
-**b.** Phân biệt và cho ví dụ cụ thể về quan hệ <<include>> và <<extend>> trong use case diagram của hệ thống này. (1,0 đ)
+**b.** Phân biệt và cho ví dụ cụ thể về quan hệ <<`include`>> và <<`extend`>> trong use case diagram của hệ thống này. (1,0 đ)
 
 ---
 
@@ -173,9 +173,9 @@ Biểu diễn quan hệ giữa các lớp và trình bày ý nghĩa của từng
    - Actor: Cinema Staff
    - Kết quả: Booking bị hủy, thông báo được gửi đến khách hàng
 
-#### b. Phân biệt quan hệ <<include>> và <<extend>> (1,0 đ)
+#### b. Phân biệt quan hệ <<`include`>> và <<`extend`>> (1,0 đ)
 
-##### Quan hệ <<include>>:
+##### Quan hệ <<`include`>>:
 **Định nghĩa:** Use case con luôn được thực hiện khi use case cha được thực hiện
 
 **Ví dụ trong hệ thống cinema:**
@@ -185,7 +185,7 @@ Biểu diễn quan hệ giữa các lớp và trình bày ý nghĩa của từng
 - Khi đặt vé, hệ thống luôn phải kiểm tra đăng nhập
 - Không thể đặt vé mà không xác thực
 
-##### Quan hệ <<extend>>:
+##### Quan hệ <<`extend`>>:
 **Định nghĩa:** Use case con chỉ được thực hiện trong điều kiện nhất định
 
 **Ví dụ trong hệ thống cinema:**

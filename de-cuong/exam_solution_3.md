@@ -1,9 +1,9 @@
-# ĐỀ THI VÀ ĐÁP ÁN - BIẾN THỂ 2
+# ĐỀ THI VÀ ĐÁP ÁN - BIẾN THỂ 3
 
 ## ĐỀ THI
 
 ### TRƯỜNG ĐẠI HỌC SÀI GÒN
-#### ĐỀ THI KẾT THÚC HỌC PHẦN - BIẾN THỂ 2
+#### ĐỀ THI KẾT THÚC HỌC PHẦN - BIẾN THỂ 3
 **Học phần:** CÔNG NGHỆ PHẦN MÀM
 **Mã học phần:** 841047
 *Thời gian làm bài: 90 phút, không kể thời gian phát đề*
@@ -26,7 +26,7 @@ Cho hệ thống đặt vé trực tuyến gồm các chức năng: tìm kiếm,
 
 a. Liệt kê các actor chính tương tác với hệ thống và mô tả ngắn gọn vai trò của từng actor. (1,0 đ)
 
-b. Nêu 3 use case liên quan đến hủy vé của khách hàng và phân biệt quan hệ <<include>>, <<extend>> trong use case. (1,0 đ)
+b. Nêu 3 use case liên quan đến hủy vé của khách hàng và phân biệt quan hệ <<`include`>>, <<`extend`>> trong use case. (1,0 đ)
 
 c. Liệt kê yêu cầu chức năng và yêu cầu phi chức năng của hệ thống này. (1,0 đ)
 
@@ -114,12 +114,12 @@ Module Design ←→ Unit Testing
 3. **Hoàn tiền**
 
 **Quan hệ:**
-- "Hủy vé" <<include>> "Kiểm tra điều kiện hủy vé" (bắt buộc)
-- "Hủy vé" <<extend>> "Tính phí hủy vé" (tùy điều kiện thời gian hủy)
+- "Hủy vé" <<`include`>> "Kiểm tra điều kiện hủy vé" (bắt buộc)
+- "Hủy vé" <<`extend`>> "Tính phí hủy vé" (tùy điều kiện thời gian hủy)
 
 **Phân biệt quan hệ:**
-- **<<include>>:** Quan hệ bắt buộc, luôn thực hiện
-- **<<extend>>:** Quan hệ tùy chọn, thực hiện khi có điều kiện
+- **<<`include`>>:** Quan hệ bắt buộc, luôn thực hiện
+- **<<`extend`>>:** Quan hệ tùy chọn, thực hiện khi có điều kiện
 
 #### c. Yêu cầu hệ thống (1,0 đ)
 
